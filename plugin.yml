@@ -1,0 +1,14 @@
+name: PluginTemplate
+version: 1.0.0
+author: NameGoesHere
+# substitute "ca.vire" to whatever you like, but must match package name.
+# everything is case sensitive and "Plugin" must match class with the plugin that extends JavaPlugin
+main: ca.vire.template.Plugin
+
+commands:
+  hello:
+    description: Say Hello!
+    usage: /hello
+    permission: template.hello
+    permission-message: §4YOURE NOT ALLOWED TO SAY HELLO!
+    # make the permission deny message (above) extra red and scary.
